@@ -1,0 +1,4 @@
+# asyncio_mode is "auto" so all async tests work without decorating fixtures
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
